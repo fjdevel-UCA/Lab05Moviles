@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FIrstFragment">
+
+    <fragment
+        android:id="@+id/FIrstFragment"
+        android:name="com.fjdevel.lab05.FIrstFragment"
+        android:label="fragment_f_irst"
+        tools:layout="@layout/fragment_f_irst" >
+        <action
+            android:id="@+id/action_FIrstFragment_to_secondFragment"
+            app:destination="@id/secondFragment" />
+        <action
+            android:id="@+id/action_FIrstFragment_to_moviesFragment"
+            app:destination="@id/moviesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.fjdevel.lab05.SecondFragment"
+        android:label="fragment_second"
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_FIrstFragment2"
+            app:destination="@id/FIrstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="com.fjdevel.lab05.MoviesFragment"
+        android:label="fragment_movies"
+        tools:layout="@layout/fragment_movies" >
+        <action
+            android:id="@+id/action_moviesFragment_to_FIrstFragment2"
+            app:destination="@id/FIrstFragment" />
+    </fragment>
+</navigation>
