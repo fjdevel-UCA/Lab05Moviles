@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FIrstFragment"
-        android:name="com.fjdevel.lab05.FIrstFragment"
+        android:name="com.fjdevel.lab05.ui.movies.FIrstFragment"
         android:label="fragment_f_irst"
         tools:layout="@layout/fragment_f_irst" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.fjdevel.lab05.SecondFragment"
+        android:name="com.fjdevel.lab05.ui.movies.SecondFragment"
         android:label="fragment_second"
         tools:layout="@layout/fragment_second" >
         <action
@@ -28,7 +28,7 @@
     </fragment>
     <fragment
         android:id="@+id/moviesFragment"
-        android:name="com.fjdevel.lab05.MoviesFragment"
+        android:name="com.fjdevel.lab05.ui.movies.MoviesFragment"
         android:label="fragment_movies"
         tools:layout="@layout/fragment_movies" >
         <action

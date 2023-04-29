@@ -1,4 +1,4 @@
-package com.fjdevel.lab05
+package com.fjdevel.lab05.ui.movies
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.activity.addCallback
 import androidx.navigation.fragment.findNavController
+import com.fjdevel.lab05.R
 
 
 class MoviesFragment : Fragment() {
